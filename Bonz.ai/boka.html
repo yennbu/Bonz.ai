@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonz.ai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1eafdca816.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <img class="logga mobile" src="assets/logo/bonz.ai-logo-white-landscape.png" alt="">
+        <img class="logga desktop" src="assets/logo/bonz.ai-logo-white-portrait-full.png" alt="">
+        <a href="#main-menu" id="main-menu-toggle" class="menu-toggle"><span class="menu-icon"
+                aria-hidden="true"></span></a>
+        <nav id="main-menu" class="main-menu">
+            <a href="#main-menu-toggle" id="main-menu-close" class="menu-close">&times;</a>
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="faciliteter.html">Faciliteter</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <!-- Utfyllnadsknapp -->
+                <li><a href="">Mina bokningar</a></li>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-globe"></i>
+    </header>
+    <!-- Header slutar-->
+
+    <!-- main -->
+    <main>
+
+        <div class="rubrik">
+            <hr>
+            <h2>Boka din vistelse</h2>
+            <hr>
+        </div>
+
+        <nav class="bokning-meny">
+            <ul>
+                <li class="aktuellt-steg" id="antal-gäster"><a href="">Antal gäster</a></li>
+                <li><a href="#datum">Datum</a></li>
+                <li><a href="#välj-rum">Välj rum</a></li>
+                <li><a href="">Tillägg</a></li>
+                <li><a href="">Betalning</a></li>
+            </ul>
+        </nav>
+
+        <div class="bokning-förstasidan">
+
+            <section class="gäster">
+
+                <div>
+                    <h2>Välj antal gäster</h2>
+                    <div class="ruta-antal">
+                        <p class="ålderskategori">15+ år</p>
+                        <div class="öka-antal">
+                            <div class="knapp-antal minus">-</div>
+                            <div class="knapp-antal">2</div>
+                            <div class="knapp-antal plus">+</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ruta-antal">
+                    <p class="ålderskategori">0-14 år</p>
+                    <div class="öka-antal">
+                        <div class="knapp-antal minus">-</div>
+                        <div class="knapp-antal"><span id="noll">0</span></div>
+                        <div class="knapp-antal plus">+</div>
+                    </div>
+                </div>
+
+                <a class="knapp bokningssida__knapp" href="#datum">Nästa &#11166;</a>
+
+            </section>
+
+            <figure class="bildgalleri">
+                <!-- BEM -->
+                <img class="bildgalleri__img" id="bildgalleri__img1" src="assets/photos/01-day.jpg" alt="">
+                <img class="bildgalleri__img" id="bildgalleri__img2" src="assets/photos/06-day.jpg" alt="">
+                <img class="bildgalleri__img" id="bildgalleri__img3" src="assets/photos/02-day.jpg" alt="">
+                <img class="bildgalleri__img" id="bildgalleri__img4" src="assets/photos/04-night.jpg" alt="">
+                <img class="bildgalleri__img" id="bildgalleri__img5" src="assets/photos/03-day.jpg" alt="">
+                <img class="bildgalleri__img" id="bildgalleri__img6" src="assets/photos/08-night.jpg" alt="">
+            </figure>
+
+        </div>
+
+        <!-- Ny sida -->
+
+        <div class="bokning-andrasidan">
+
+            <!-- Rubrik -->
+            <div class="rubrik">
+                <hr>
+                <h2>Det här är egentligen en ny sida</h2>
+                <hr>
+            </div>
+
+            <nav class="bokning-meny">
+                <ul>
+                    <li><a href="#antal-gäster">Antal gäster</a></li>
+                    <li class="aktuellt-steg" id="datum"><a href="">Datum</a></li>
+                    <li><a href="#välj-rum">Välj rum</a></li>
+                    <li><a href="">Tillägg</a></li>
+                    <li><a href="">Betalning</a></li>
+                </ul>
+            </nav>
+
+            <article class="bokning-kalender">
+
+                <div class="kalender-rubrik">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <h1> September 2020</h1>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+
+                <div class="kalender">
+                    <div class="veckodagar">
+                        <div>mån</div>
+                        <div>tis</div>
+                        <div>ons</div>
+                        <div>tor</div>
+                        <div>fre</div>
+                        <div>lör</div>
+                        <div>sön</div>
+                    </div>
+                    <div class="datum">
+                        <div class="månadföre">31</div>
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>4</div>
+                        <div class="lör">5</div>
+                        <div class="sön">6</div>
+                        <div>7</div>
+                        <div>8</div>
+                        <div>9</div>
+                        <div>10</div>
+                        <div>11</div>
+                        <div class="lör">12</div>
+                        <div class="sön">13</div>
+                        <div>14</div>
+                        <div>15</div>
+                        <div><span id="dagens-datum">16</span></div>
+                        <div>17</div>
+                        <div>18</div>
+                        <div class="lör">19</div>
+                        <div class="sön">20</div>
+                        <div class="valda-datum">21</div>
+                        <div class="valda-datum">22</div>
+                        <div class="valda-datum">23</div>
+                        <div>24</div>
+                        <div>25</div>
+                        <div class="lör">26</div>
+                        <div class="sön">27</div>
+                        <div>28</div>
+                        <div>29</div>
+                        <div>30</div>
+                        <div class="månadefter">1</div>
+                        <div class="månadefter">2</div>
+                        <div class="månadefter lör">3</div>
+                        <div class="månadefter sön">4</div>
+                    </div>
+                </div>
+            </article>
+
+            <a class="knapp bokningssida__knapp" href="#välj-rum">Nästa &#11166;</a>
+
+        </div>
+
+        <!-- Ny sida -->
+
+        <!-- Rubrik -->
+        <div class="rubrik">
+            <hr>
+            <h2>Det här är egentligen en ny sida</h2>
+            <hr>
+        </div>
+
+        <nav class="bokning-meny">
+            <ul>
+                <li><a href="#antal-gäster">Antal gäster</a></li>
+                <li><a href="#datum">Datum</a></li>
+                <li class="aktuellt-steg" id="välj-rum"><a href="">Välj rum</a></li>
+                <li><a href="">Tillägg</a></li>
+                <li><a href="">Betalning</a></li>
+            </ul>
+        </nav>
+
+        <article class="gjorda-val">
+            <div class="valt">
+                <h3 class="gjorda-val__h3">Antal rum och gäster</h3>
+                <p class="gjorda-val__p">1 rum - 2 vuxna - Inga barn</p>
+            </div>
+            <div class="valt valt-incheck-utcheck">
+                <div class="valt-incheckning">
+                    <h3 class="gjorda-val__h3">Incheckning</h3>
+                    <p class="gjorda-val__p">mån 21 sep.</p>
+                </div>
+                <div class="valt-utcheckning">
+                    <h3 class="gjorda-val__h3">Utcheckning</h3>
+                    <p class="gjorda-val__p">ons 23 sep.</p>
+                </div>
+            </div>
+
+        </article>
+
+        <!-- Standard -->
+        <article class="kort-alt2">
+            <img src="assets/photos/01-day.jpg" alt="">
+            <div class="kort-alt2__text">
+                <h2>Standard</h2>
+                <ul>
+                    <li><i class="fa-solid fa-bed"></i>Två enkelsängar</li>
+                    <li><i class="fa-solid fa-shower"></i>Dusch på rummet</li>
+                    <li><i class="fa-solid fa-dumbbell"></i>Tillgång till gym</li>
+                </ul>
+            </div>
+            <div class="margin-bottom"></div>
+            <a class="knapp kort-alt2__knapp" href="">Välj</a>
+        </article>
+
+        <!-- Deluxe -->
+        <article class="kort-alt2">
+            <img src="assets/photos/01-day.jpg" alt="">
+            <div class="kort-alt2__text">
+                <h2>Deluxe</h2>
+                <ul>
+                    <li><i class="fa-solid fa-bed"></i>En dubbelsäng</li>
+                    <li><i class="fa-solid fa-bath"></i>Badkar på rummet</li>
+                    <li><i class="fa-solid fa-dumbbell"></i>Tillgång till gym</li>
+                </ul>
+            </div>
+            <ul>
+                <li><i class="fa-solid fa-spa"></i>Tillgång till spaavdelingen</li>
+            </ul>
+            <div class="margin-bottom"></div>
+            <a class="knapp kort-alt2__knapp" href="">Välj</a>
+        </article>
+
+        <!-- Expert -->
+        <article class="kort-alt2">
+            <img src="assets/photos/01-day.jpg" alt="">
+            <div class="kort-alt2__column">
+                <h2>Expert</h2>
+                <ul>
+                    <li><i class="fa-solid fa-bed"></i>En dubbelsäng</li>
+                    <li><i class="fa-solid fa-bath"></i>Badkar på rummet</li>
+                    <li><i class="fa-solid fa-dumbbell"></i>Tillgång till gym</li>
+                </ul>
+            </div>
+            <ul>
+                <li><i class="fa-solid fa-spa"></i>Tillgång till spaavdelingen</li>
+            </ul>
+            <ul>
+                <li><i class="fa-solid fa-mug-saucer"></i>Frukost ingår</li>
+            </ul>
+            <div class="margin-bottom"></div>
+            <a class="knapp kort-alt2__knapp" href="">Välj</a>
+        </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <section class="footer-block">
+            <h3>Hitta hit</h3>
+            <h4>Adress</h4>
+            <p>Bonzaivägen 44</p>
+            <p>588 85 Stockholm</p>
+        </section>
+        <section class="footer-block">
+            <h3 id="kontakt">Kontakt</h3>
+            <h4>Telefon</h4>
+            <p>070-123 45 67</p>
+            <h4>Mail</h4>
+            <p>bonz@i.com</p>
+        </section>
+        <section class="footer-block">
+            <h3>Följ oss på:</h3>
+            <ul>
+                <li>
+                    <i class="fa-brands fa-facebook"></i>
+                    <a href="https://www.facebook.com/">Facebook</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                </li>
+            </ul>
+        </section>
+
+    </footer>
+    <!-- Footer slutar -->
+</body>
+
+</html>
